@@ -1,13 +1,13 @@
 import './App.css'
-import DaisyUI from './components/DaisyUI/DaisyUI'
+// import DaisyUI from './components/DaisyUI/DaisyUI'
+import NavBar from './components/NavBar/NavBar'
 
 function App() {
 
   return (
     <>
-      <h1 className='text-center'>NAVBAR</h1>
-
-      <DaisyUI></DaisyUI>
+      {/* <DaisyUI></DaisyUI> */}
+      <NavBar></NavBar>
     </>
   )
 }
